@@ -40,8 +40,8 @@ open a terminal (in the docker jupyter lab) and run the following commands:
 python scripts/generate_figures.py --input_dir="data/00030067-eng.csv" \
     --out_dir="results"
 
-quarto render reports/qmd_example.qmd --to html
-quarto render reports/qmd_example.qmd --to pdf
+quarto render reports/qmd_example.qmd --to html --output-dir ../docs
+quarto render reports/qmd_example.qmd --to pdf --output-dir ../docs
 ```
 
 #### Clean up
