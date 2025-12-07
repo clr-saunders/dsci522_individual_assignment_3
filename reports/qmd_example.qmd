@@ -1,16 +1,15 @@
 ---
-title: "Historical Horse Population in Canada"
-author: "Claire Saunders"
-date: "2025-12-05"
+title: "DSCI 310: Historical Horse Population in Canada"
+author: "Tiffany Timbers & Claire Saunders"
+editor: visual
 format:
   html:
     toc: true
-    toc-depth: 2
+    toc-depth: 3
   pdf:
     toc: true
-    toc-depth: 2
+    toc-depth: 3
     fig-pos: "H"
-editor: visual
 execute:
   echo: false
   warning: false
